@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## DownloadManager
+## MRJDownloadManager
 
 Copyright (c) 2018 mrjlovetian@gmail.com <yuhongjiang642@tops001.com>
 

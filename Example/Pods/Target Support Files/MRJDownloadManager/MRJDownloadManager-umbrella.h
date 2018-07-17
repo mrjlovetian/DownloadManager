@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "MRJDownLoad.h"
 
-FOUNDATION_EXPORT double Pods_DownloadManager_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_DownloadManager_TestsVersionString[];
+FOUNDATION_EXPORT double MRJDownloadManagerVersionNumber;
+FOUNDATION_EXPORT const unsigned char MRJDownloadManagerVersionString[];
 

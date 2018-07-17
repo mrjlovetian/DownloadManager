@@ -7,142 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E507C617D7EB2C9540521C49B58CE73 /* Pods-DownloadManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 192101979D34E0C0906F53CEF8619088 /* Pods-DownloadManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F4D71B46F83071301E0BD195375E287 /* Pods-DownloadManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC85044EBCB00CE831151FDD7BFAEA4 /* Pods-DownloadManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14BA539218F084B298ED1F07CFFDDE36 /* DownloadManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A71D786D3E399C1A7F45F031D8723DA /* DownloadManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68E28C32BF08B022B76965BBC8DC2A2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		94DF0B27DBCEC28AC7B405D7A55573DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9662CA4DFC7243C215FCA6674DCECF0A /* MRJDownLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B59AF54A422BE960A2F2DA6C80963F3 /* MRJDownLoad.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F5C305E0FEFB4612DB43A32849BB4F9 /* MRJDownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 4206EAB570DF4FC08EF9A4CBBADE1FFE /* MRJDownLoad.m */; };
-		A033690838E427F89BCE79D81055B1C6 /* Pods-DownloadManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F19C04968E7FEA8B2BE8919741E46BF /* Pods-DownloadManager_Tests-dummy.m */; };
-		A73EDCBE0CCA850FC8C3CDE80CEC431E /* DownloadManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2475B95D0901436A30F1134DD8BC6B5E /* DownloadManager-dummy.m */; };
-		DEE24F9A42E3C3E6E5E90B1F769D765D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E9225508AE6FBAA9604FCE1BACF03671 /* Pods-DownloadManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A41A20517714CB30AF2F3C58047149C /* Pods-DownloadManager_Example-dummy.m */; };
+		2C6F82197338F0A6775DE6F08FD8F6D5 /* Pods-DownloadManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A09571A317C6CB106CB47B422A0577 /* Pods-DownloadManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30030E233D1827CFFCDDECC9B1B82ADC /* MRJDownloadManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F90F04B9FBE871F1E220A5BD1CA5DC0 /* MRJDownloadManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5060E8D20526B5AF560A4AF8FD123A0E /* MRJDownloadManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8665F682011251E148EA538F20A3994 /* MRJDownloadManager-dummy.m */; };
+		789464B311A6FE0634EB54D79AD122D9 /* MRJDownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 418B4DD71F95F2FFB9408702FB1BF016 /* MRJDownLoad.m */; };
+		7F3F0B4D98A9E52D7F67062F9D511F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9BC6AE7B75808AE307CD4D45F449EDF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DA132033441F2642875EBDE095392025 /* MRJDownLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED2AEF8317F209103EFEC99AA0C7D84 /* MRJDownLoad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F67D5EA9EE7C55506CA061F27EB37D32 /* Pods-DownloadManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4749AD0C27A6A7D1B98F50FA6D65FDEC /* Pods-DownloadManager_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA333EDF5962FA2B95D7A7483595D09C /* PBXContainerItemProxy */ = {
+		6E3BE7F14DF87BFCCC5CB72AAA4739B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 09D322C61DF15A8580F0E68788CAB512;
-			remoteInfo = "Pods-DownloadManager_Example";
-		};
-		DE0991E83DFD127D5CC4656D3C32CE86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF0EFFF88CBDACC046CCDA0716742DAC;
-			remoteInfo = DownloadManager;
+			remoteGlobalIDString = 27501D1DF49D25957272A7FCCF602ADE;
+			remoteInfo = MRJDownloadManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F8F3F4EFD6EE84E9175D3E4F9F8BE8 /* DownloadManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DownloadManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0B59AF54A422BE960A2F2DA6C80963F3 /* MRJDownLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRJDownLoad.h; path = DownloadManager/Classes/MRJDownLoad.h; sourceTree = "<group>"; };
-		0F19C04968E7FEA8B2BE8919741E46BF /* Pods-DownloadManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownloadManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		1488BEB2D8E979024909DE27876EADDE /* Pods-DownloadManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		192101979D34E0C0906F53CEF8619088 /* Pods-DownloadManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloadManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		2475B95D0901436A30F1134DD8BC6B5E /* DownloadManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownloadManager-dummy.m"; sourceTree = "<group>"; };
-		2C3A533F2338B76889C6D54D3D51B6D9 /* Pods-DownloadManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2E65BE498A6E0DC766951CA5F1415F27 /* DownloadManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloadManager-prefix.pch"; sourceTree = "<group>"; };
-		39DCE32D84CC755D12FC74D1DC60D2FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		408EF7066BFE829974FFA0508160F4BC /* Pods-DownloadManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4206EAB570DF4FC08EF9A4CBBADE1FFE /* MRJDownLoad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRJDownLoad.m; path = DownloadManager/Classes/MRJDownLoad.m; sourceTree = "<group>"; };
-		4FC85044EBCB00CE831151FDD7BFAEA4 /* Pods-DownloadManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloadManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		520B18E359B72A948370064D5E800BDD /* Pods-DownloadManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DownloadManager_Example.modulemap"; sourceTree = "<group>"; };
-		590E29BDD52304A96E22578D632C36A7 /* Pods-DownloadManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		03F4BA2F9A2F126C865AC2A10BD30C8D /* MRJDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJDownloadManager.framework; path = MRJDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A09571A317C6CB106CB47B422A0577 /* Pods-DownloadManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloadManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		21F5BDD409DA01AB7771E110AF7BCBB0 /* MRJDownloadManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJDownloadManager-prefix.pch"; sourceTree = "<group>"; };
+		25346EB4742DCD082FE220E15179B876 /* MRJDownloadManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJDownloadManager.xcconfig; sourceTree = "<group>"; };
+		25797474AECE5BDE5AE7E3DAF608A281 /* Pods-DownloadManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DownloadManager_Example.modulemap"; sourceTree = "<group>"; };
+		30F18C29702EAD8E3011FDE4E19E1461 /* Pods-DownloadManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		36D02DAA10D2F369506F0ECD4B6939ED /* Pods-DownloadManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloadManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		38BB26EB231C699BFCE97E3AA3B6C813 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F90F04B9FBE871F1E220A5BD1CA5DC0 /* MRJDownloadManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJDownloadManager-umbrella.h"; sourceTree = "<group>"; };
+		3FB0241116B434B4F5A48FB0A29AC352 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		418B4DD71F95F2FFB9408702FB1BF016 /* MRJDownLoad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRJDownLoad.m; path = MRJDownloadManager/Classes/MRJDownLoad.m; sourceTree = "<group>"; };
+		43465DA3FE559ECCB34674FC52D7E358 /* Pods-DownloadManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownloadManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4749AD0C27A6A7D1B98F50FA6D65FDEC /* Pods-DownloadManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownloadManager_Example-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5CDE95A78D06521AED266BCE704D4DA7 /* Pods-DownloadManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloadManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		64ACF09D0609075C029D930B4459F30B /* Pods-DownloadManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DownloadManager_Tests.modulemap"; sourceTree = "<group>"; };
-		7120689A3B7A05E614507BA83B384960 /* Pods-DownloadManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloadManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		71460474CA57EAA642383C39B155259A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A71D786D3E399C1A7F45F031D8723DA /* DownloadManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloadManager-umbrella.h"; sourceTree = "<group>"; };
-		80EBDFC0CDEF0D198D67ACBBD3ED5CF4 /* DownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DownloadManager.framework; path = DownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F635FE8AED4BFF1F9B04083B72057AD /* MRJDownloadManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MRJDownloadManager.modulemap; sourceTree = "<group>"; };
+		7ED2AEF8317F209103EFEC99AA0C7D84 /* MRJDownLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRJDownLoad.h; path = MRJDownloadManager/Classes/MRJDownLoad.h; sourceTree = "<group>"; };
+		809CDBBC060E97E01D1291C74FD0A31E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8993818E16372DCC56C05AD51B9FFA67 /* Pods-DownloadManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A41A20517714CB30AF2F3C58047149C /* Pods-DownloadManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownloadManager_Example-dummy.m"; sourceTree = "<group>"; };
-		AAC11A92F23EB0CC08E49EB7262DEB87 /* Pods_DownloadManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownloadManager_Example.framework; path = "Pods-DownloadManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1204F455434DC733579A173EF7E1535 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAE955E84E19AC3FAA0618C0950C2F90 /* Pods_DownloadManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownloadManager_Tests.framework; path = "Pods-DownloadManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0EE4ACFCE0E9E41544E2E78579E01D7 /* Pods-DownloadManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadManager_Example-resources.sh"; sourceTree = "<group>"; };
-		DADCFC6B3552CA373D1A5BC14C493278 /* Pods-DownloadManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownloadManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DEADED72153E7E76E53036E340438D18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E20FD1A6A0BDDAE5A8B799A8B2A72169 /* Pods-DownloadManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		E262674056B87151B53508CA366FACC9 /* DownloadManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DownloadManager.modulemap; sourceTree = "<group>"; };
-		E5B3A1651F3B919BC159D934AD9D3E39 /* Pods-DownloadManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E98B5D7CFADA21477B3D5EC00CE93626 /* DownloadManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownloadManager.xcconfig; sourceTree = "<group>"; };
-		EFCEBEC5492F34F5A8A829CD439F3806 /* Pods-DownloadManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F3C64E89150616F52A79B5C1C0862EB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F407DF38B6102EADC60D60F5C0F18F7B /* Pods-DownloadManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownloadManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9DB9C5A07D316F6817DB5E0ED2C53BD5 /* Pods_DownloadManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownloadManager_Example.framework; path = "Pods-DownloadManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F442D77D1AB13FADBF5F8062BC4591 /* MRJDownloadManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MRJDownloadManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8665F682011251E148EA538F20A3994 /* MRJDownloadManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJDownloadManager-dummy.m"; sourceTree = "<group>"; };
+		CA9FD31C5CC4BB8483E576143D05B471 /* Pods-DownloadManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E63FD6F7C96E647B3DE94E03E12BEA39 /* Pods-DownloadManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadManager_Example-resources.sh"; sourceTree = "<group>"; };
+		EE31B9766C0A42E404A531E714AA701B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CCADFAA50C4F958AD0CA98F0C285FF1B /* Frameworks */ = {
+		2874E49D713548063975F8BADAE687D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E28C32BF08B022B76965BBC8DC2A2B /* Foundation.framework in Frameworks */,
+				7F3F0B4D98A9E52D7F67062F9D511F60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D062376CF28969BF161CDC5E92CAB765 /* Frameworks */ = {
+		DA3CFBB43A0645A17DE4FEDF299A7B7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE24F9A42E3C3E6E5E90B1F769D765D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8EACE52451AA10BF1528394460DB6EF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94DF0B27DBCEC28AC7B405D7A55573DA /* Foundation.framework in Frameworks */,
+				9BC6AE7B75808AE307CD4D45F449EDF5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2DFF2293E92056D77930FF8B849A2B2D /* Pods-DownloadManager_Tests */ = {
+		390BF7F139FCFEBF01897FD494F2B0B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71460474CA57EAA642383C39B155259A /* Info.plist */,
-				64ACF09D0609075C029D930B4459F30B /* Pods-DownloadManager_Tests.modulemap */,
-				DADCFC6B3552CA373D1A5BC14C493278 /* Pods-DownloadManager_Tests-acknowledgements.markdown */,
-				7120689A3B7A05E614507BA83B384960 /* Pods-DownloadManager_Tests-acknowledgements.plist */,
-				0F19C04968E7FEA8B2BE8919741E46BF /* Pods-DownloadManager_Tests-dummy.m */,
-				2C3A533F2338B76889C6D54D3D51B6D9 /* Pods-DownloadManager_Tests-frameworks.sh */,
-				E20FD1A6A0BDDAE5A8B799A8B2A72169 /* Pods-DownloadManager_Tests-resources.sh */,
-				4FC85044EBCB00CE831151FDD7BFAEA4 /* Pods-DownloadManager_Tests-umbrella.h */,
-				EFCEBEC5492F34F5A8A829CD439F3806 /* Pods-DownloadManager_Tests.debug.xcconfig */,
-				E5B3A1651F3B919BC159D934AD9D3E39 /* Pods-DownloadManager_Tests.release.xcconfig */,
+				03F4BA2F9A2F126C865AC2A10BD30C8D /* MRJDownloadManager.framework */,
+				9DB9C5A07D316F6817DB5E0ED2C53BD5 /* Pods_DownloadManager_Example.framework */,
 			);
-			name = "Pods-DownloadManager_Tests";
-			path = "Target Support Files/Pods-DownloadManager_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		469DD9783C16094F09E657647368F0D0 /* Targets Support Files */ = {
+		59B1A11FD335FB6A2012F5733F9402C0 /* Pods-DownloadManager_Example */ = {
 			isa = PBXGroup;
 			children = (
-				72B594C6B9C6FCABDF1846E9681DC48E /* Pods-DownloadManager_Example */,
-				2DFF2293E92056D77930FF8B849A2B2D /* Pods-DownloadManager_Tests */,
+				38BB26EB231C699BFCE97E3AA3B6C813 /* Info.plist */,
+				25797474AECE5BDE5AE7E3DAF608A281 /* Pods-DownloadManager_Example.modulemap */,
+				43465DA3FE559ECCB34674FC52D7E358 /* Pods-DownloadManager_Example-acknowledgements.markdown */,
+				36D02DAA10D2F369506F0ECD4B6939ED /* Pods-DownloadManager_Example-acknowledgements.plist */,
+				4749AD0C27A6A7D1B98F50FA6D65FDEC /* Pods-DownloadManager_Example-dummy.m */,
+				30F18C29702EAD8E3011FDE4E19E1461 /* Pods-DownloadManager_Example-frameworks.sh */,
+				E63FD6F7C96E647B3DE94E03E12BEA39 /* Pods-DownloadManager_Example-resources.sh */,
+				11A09571A317C6CB106CB47B422A0577 /* Pods-DownloadManager_Example-umbrella.h */,
+				8993818E16372DCC56C05AD51B9FFA67 /* Pods-DownloadManager_Example.debug.xcconfig */,
+				CA9FD31C5CC4BB8483E576143D05B471 /* Pods-DownloadManager_Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		570DEBAE7617415DD8DA12C8FAE01373 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E262674056B87151B53508CA366FACC9 /* DownloadManager.modulemap */,
-				E98B5D7CFADA21477B3D5EC00CE93626 /* DownloadManager.xcconfig */,
-				2475B95D0901436A30F1134DD8BC6B5E /* DownloadManager-dummy.m */,
-				2E65BE498A6E0DC766951CA5F1415F27 /* DownloadManager-prefix.pch */,
-				7A71D786D3E399C1A7F45F031D8723DA /* DownloadManager-umbrella.h */,
-				C1204F455434DC733579A173EF7E1535 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DownloadManager";
+			name = "Pods-DownloadManager_Example";
+			path = "Target Support Files/Pods-DownloadManager_Example";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -153,42 +110,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		72B594C6B9C6FCABDF1846E9681DC48E /* Pods-DownloadManager_Example */ = {
+		7A65CFE2CF0F6F580651AC8F1855E6DE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				39DCE32D84CC755D12FC74D1DC60D2FD /* Info.plist */,
-				520B18E359B72A948370064D5E800BDD /* Pods-DownloadManager_Example.modulemap */,
-				F407DF38B6102EADC60D60F5C0F18F7B /* Pods-DownloadManager_Example-acknowledgements.markdown */,
-				5CDE95A78D06521AED266BCE704D4DA7 /* Pods-DownloadManager_Example-acknowledgements.plist */,
-				9A41A20517714CB30AF2F3C58047149C /* Pods-DownloadManager_Example-dummy.m */,
-				408EF7066BFE829974FFA0508160F4BC /* Pods-DownloadManager_Example-frameworks.sh */,
-				D0EE4ACFCE0E9E41544E2E78579E01D7 /* Pods-DownloadManager_Example-resources.sh */,
-				192101979D34E0C0906F53CEF8619088 /* Pods-DownloadManager_Example-umbrella.h */,
-				590E29BDD52304A96E22578D632C36A7 /* Pods-DownloadManager_Example.debug.xcconfig */,
-				1488BEB2D8E979024909DE27876EADDE /* Pods-DownloadManager_Example.release.xcconfig */,
-			);
-			name = "Pods-DownloadManager_Example";
-			path = "Target Support Files/Pods-DownloadManager_Example";
-			sourceTree = "<group>";
-		};
-		78014308759EAB7581007C7364992D37 /* DownloadManager */ = {
-			isa = PBXGroup;
-			children = (
-				0B59AF54A422BE960A2F2DA6C80963F3 /* MRJDownLoad.h */,
-				4206EAB570DF4FC08EF9A4CBBADE1FFE /* MRJDownLoad.m */,
-				7CC4CBF0483F6E43F892AE08CA796AF0 /* Pod */,
-				570DEBAE7617415DD8DA12C8FAE01373 /* Support Files */,
-			);
-			name = DownloadManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7CC4CBF0483F6E43F892AE08CA796AF0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				01F8F3F4EFD6EE84E9175D3E4F9F8BE8 /* DownloadManager.podspec */,
-				F3C64E89150616F52A79B5C1C0862EB8 /* LICENSE */,
-				DEADED72153E7E76E53036E340438D18 /* README.md */,
+				3FB0241116B434B4F5A48FB0A29AC352 /* LICENSE */,
+				C1F442D77D1AB13FADBF5F8062BC4591 /* MRJDownloadManager.podspec */,
+				EE31B9766C0A42E404A531E714AA701B /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -197,11 +124,45 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				EC749CA324470BF403AB9297DEF31BFD /* Development Pods */,
+				862D04E91656FB509E98A73CA0F190DC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DFA54D1A53CD4711E5B547DEB72409C4 /* Products */,
-				469DD9783C16094F09E657647368F0D0 /* Targets Support Files */,
+				390BF7F139FCFEBF01897FD494F2B0B2 /* Products */,
+				DAA7037CD25D3BE4E8319A338C79CF73 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		862D04E91656FB509E98A73CA0F190DC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B031CEE3DB442826524A232870C2D9E8 /* MRJDownloadManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A32ADA61F00BA5F040DA58E9C4A4F826 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				809CDBBC060E97E01D1291C74FD0A31E /* Info.plist */,
+				6F635FE8AED4BFF1F9B04083B72057AD /* MRJDownloadManager.modulemap */,
+				25346EB4742DCD082FE220E15179B876 /* MRJDownloadManager.xcconfig */,
+				C8665F682011251E148EA538F20A3994 /* MRJDownloadManager-dummy.m */,
+				21F5BDD409DA01AB7771E110AF7BCBB0 /* MRJDownloadManager-prefix.pch */,
+				3F90F04B9FBE871F1E220A5BD1CA5DC0 /* MRJDownloadManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MRJDownloadManager";
+			sourceTree = "<group>";
+		};
+		B031CEE3DB442826524A232870C2D9E8 /* MRJDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				7ED2AEF8317F209103EFEC99AA0C7D84 /* MRJDownLoad.h */,
+				418B4DD71F95F2FFB9408702FB1BF016 /* MRJDownLoad.m */,
+				7A65CFE2CF0F6F580651AC8F1855E6DE /* Pod */,
+				A32ADA61F00BA5F040DA58E9C4A4F826 /* Support Files */,
+			);
+			name = MRJDownloadManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -212,106 +173,70 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DFA54D1A53CD4711E5B547DEB72409C4 /* Products */ = {
+		DAA7037CD25D3BE4E8319A338C79CF73 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				80EBDFC0CDEF0D198D67ACBBD3ED5CF4 /* DownloadManager.framework */,
-				AAC11A92F23EB0CC08E49EB7262DEB87 /* Pods_DownloadManager_Example.framework */,
-				CAE955E84E19AC3FAA0618C0950C2F90 /* Pods_DownloadManager_Tests.framework */,
+				59B1A11FD335FB6A2012F5733F9402C0 /* Pods-DownloadManager_Example */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EC749CA324470BF403AB9297DEF31BFD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				78014308759EAB7581007C7364992D37 /* DownloadManager */,
-			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		136C0C907064420E1B8FF4F9A3D52227 /* Headers */ = {
+		75315B3510BE0CFE80E67DB6ED5A2F26 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F4D71B46F83071301E0BD195375E287 /* Pods-DownloadManager_Tests-umbrella.h in Headers */,
+				2C6F82197338F0A6775DE6F08FD8F6D5 /* Pods-DownloadManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		374EBAC49D78E2B997568EEB97D2D87F /* Headers */ = {
+		93226E3B55EBEDA0225B1CB1CDA29D81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E507C617D7EB2C9540521C49B58CE73 /* Pods-DownloadManager_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5D61408259EC861799DA2F0CDAD738B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14BA539218F084B298ED1F07CFFDDE36 /* DownloadManager-umbrella.h in Headers */,
-				9662CA4DFC7243C215FCA6674DCECF0A /* MRJDownLoad.h in Headers */,
+				DA132033441F2642875EBDE095392025 /* MRJDownLoad.h in Headers */,
+				30030E233D1827CFFCDDECC9B1B82ADC /* MRJDownloadManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		09D322C61DF15A8580F0E68788CAB512 /* Pods-DownloadManager_Example */ = {
+		27501D1DF49D25957272A7FCCF602ADE /* MRJDownloadManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C842941139333D77E1291735D820E8E7 /* Build configuration list for PBXNativeTarget "Pods-DownloadManager_Example" */;
+			buildConfigurationList = 2212E01767D592C5980E2A90783E0997 /* Build configuration list for PBXNativeTarget "MRJDownloadManager" */;
 			buildPhases = (
-				80D95C97BC251E1FA400CF67332FD195 /* Sources */,
-				D062376CF28969BF161CDC5E92CAB765 /* Frameworks */,
-				374EBAC49D78E2B997568EEB97D2D87F /* Headers */,
+				22D8417BD025F283CC42499E00D3541E /* Sources */,
+				DA3CFBB43A0645A17DE4FEDF299A7B7D /* Frameworks */,
+				93226E3B55EBEDA0225B1CB1CDA29D81 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F35E443B3F4099B3BEDA8C4EC1767D3 /* PBXTargetDependency */,
+			);
+			name = MRJDownloadManager;
+			productName = MRJDownloadManager;
+			productReference = 03F4BA2F9A2F126C865AC2A10BD30C8D /* MRJDownloadManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED0BB28BDD1C309AE74B3F888F951914 /* Pods-DownloadManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B03577F4739D3A2C3645FACB2C83FC /* Build configuration list for PBXNativeTarget "Pods-DownloadManager_Example" */;
+			buildPhases = (
+				09275A1A25B359222C792A41F48F4B08 /* Sources */,
+				2874E49D713548063975F8BADAE687D4 /* Frameworks */,
+				75315B3510BE0CFE80E67DB6ED5A2F26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1600D0448CDACCD3DB999AEC7AA3D9 /* PBXTargetDependency */,
 			);
 			name = "Pods-DownloadManager_Example";
 			productName = "Pods-DownloadManager_Example";
-			productReference = AAC11A92F23EB0CC08E49EB7262DEB87 /* Pods_DownloadManager_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B15B98CCBFE4AE0EE64347B4D705026B /* Pods-DownloadManager_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46143F290BA27B21454859D7BCC99A75 /* Build configuration list for PBXNativeTarget "Pods-DownloadManager_Tests" */;
-			buildPhases = (
-				6B3D50651AF6B43E2904865D51FB6211 /* Sources */,
-				CCADFAA50C4F958AD0CA98F0C285FF1B /* Frameworks */,
-				136C0C907064420E1B8FF4F9A3D52227 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B51EF5BDDB25FCC7917ADE6FB690EDC8 /* PBXTargetDependency */,
-			);
-			name = "Pods-DownloadManager_Tests";
-			productName = "Pods-DownloadManager_Tests";
-			productReference = CAE955E84E19AC3FAA0618C0950C2F90 /* Pods_DownloadManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EF0EFFF88CBDACC046CCDA0716742DAC /* DownloadManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C4CA4DE724B33CA778A49A3EFF77BA0D /* Build configuration list for PBXNativeTarget "DownloadManager" */;
-			buildPhases = (
-				EC8383C0DD41E2674BF1FA16C65B5C47 /* Sources */,
-				D8EACE52451AA10BF1528394460DB6EF /* Frameworks */,
-				E5D61408259EC861799DA2F0CDAD738B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DownloadManager;
-			productName = DownloadManager;
-			productReference = 80EBDFC0CDEF0D198D67ACBBD3ED5CF4 /* DownloadManager.framework */;
+			productReference = 9DB9C5A07D316F6817DB5E0ED2C53BD5 /* Pods_DownloadManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -331,64 +256,110 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DFA54D1A53CD4711E5B547DEB72409C4 /* Products */;
+			productRefGroup = 390BF7F139FCFEBF01897FD494F2B0B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF0EFFF88CBDACC046CCDA0716742DAC /* DownloadManager */,
-				09D322C61DF15A8580F0E68788CAB512 /* Pods-DownloadManager_Example */,
-				B15B98CCBFE4AE0EE64347B4D705026B /* Pods-DownloadManager_Tests */,
+				27501D1DF49D25957272A7FCCF602ADE /* MRJDownloadManager */,
+				ED0BB28BDD1C309AE74B3F888F951914 /* Pods-DownloadManager_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B3D50651AF6B43E2904865D51FB6211 /* Sources */ = {
+		09275A1A25B359222C792A41F48F4B08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A033690838E427F89BCE79D81055B1C6 /* Pods-DownloadManager_Tests-dummy.m in Sources */,
+				F67D5EA9EE7C55506CA061F27EB37D32 /* Pods-DownloadManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80D95C97BC251E1FA400CF67332FD195 /* Sources */ = {
+		22D8417BD025F283CC42499E00D3541E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9225508AE6FBAA9604FCE1BACF03671 /* Pods-DownloadManager_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC8383C0DD41E2674BF1FA16C65B5C47 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A73EDCBE0CCA850FC8C3CDE80CEC431E /* DownloadManager-dummy.m in Sources */,
-				9F5C305E0FEFB4612DB43A32849BB4F9 /* MRJDownLoad.m in Sources */,
+				789464B311A6FE0634EB54D79AD122D9 /* MRJDownLoad.m in Sources */,
+				5060E8D20526B5AF560A4AF8FD123A0E /* MRJDownloadManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F35E443B3F4099B3BEDA8C4EC1767D3 /* PBXTargetDependency */ = {
+		AB1600D0448CDACCD3DB999AEC7AA3D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DownloadManager;
-			target = EF0EFFF88CBDACC046CCDA0716742DAC /* DownloadManager */;
-			targetProxy = DE0991E83DFD127D5CC4656D3C32CE86 /* PBXContainerItemProxy */;
-		};
-		B51EF5BDDB25FCC7917ADE6FB690EDC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DownloadManager_Example";
-			target = 09D322C61DF15A8580F0E68788CAB512 /* Pods-DownloadManager_Example */;
-			targetProxy = AA333EDF5962FA2B95D7A7483595D09C /* PBXContainerItemProxy */;
+			name = MRJDownloadManager;
+			target = 27501D1DF49D25957272A7FCCF602ADE /* MRJDownloadManager */;
+			targetProxy = 6E3BE7F14DF87BFCCC5CB72AAA4739B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8004BFA106CA4D2907169AC2949D0EFD /* Release */ = {
+		2547BB5E073C1C14F0DF8F9C4EB8AAC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1488BEB2D8E979024909DE27876EADDE /* Pods-DownloadManager_Example.release.xcconfig */;
+			baseConfigurationReference = 25346EB4742DCD082FE220E15179B876 /* MRJDownloadManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRJDownloadManager/MRJDownloadManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRJDownloadManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRJDownloadManager/MRJDownloadManager.modulemap";
+				PRODUCT_MODULE_NAME = MRJDownloadManager;
+				PRODUCT_NAME = MRJDownloadManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		698EF45028D3AC10CFB9767F3F979AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25346EB4742DCD082FE220E15179B876 /* MRJDownloadManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRJDownloadManager/MRJDownloadManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRJDownloadManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRJDownloadManager/MRJDownloadManager.modulemap";
+				PRODUCT_MODULE_NAME = MRJDownloadManager;
+				PRODUCT_NAME = MRJDownloadManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		994804AF7A97CBE60B598B66B8169488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9FD31C5CC4BB8483E576143D05B471 /* Pods-DownloadManager_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -419,102 +390,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		917112B593AD83852B92D56F11E924D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E98B5D7CFADA21477B3D5EC00CE93626 /* DownloadManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DownloadManager/DownloadManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DownloadManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DownloadManager/DownloadManager.modulemap";
-				PRODUCT_MODULE_NAME = DownloadManager;
-				PRODUCT_NAME = DownloadManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9B73A007DC3A8B2B1BF1D0FA96A23B9B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 590E29BDD52304A96E22578D632C36A7 /* Pods-DownloadManager_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DownloadManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DownloadManager_Example/Pods-DownloadManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B3BF35F2C18ECCB2D8CFA0B46B0F5528 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFCEBEC5492F34F5A8A829CD439F3806 /* Pods-DownloadManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DownloadManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DownloadManager_Tests/Pods-DownloadManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B9AC12289CD8978D51F9223B457E7DCA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -574,9 +449,9 @@
 			};
 			name = Release;
 		};
-		BB2432BF9C72A989CCF31ACFBC06803C /* Release */ = {
+		C1CB1FB9ED87468068607EEF2FE2E1EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5B3A1651F3B919BC159D934AD9D3E39 /* Pods-DownloadManager_Tests.release.xcconfig */;
+			baseConfigurationReference = 8993818E16372DCC56C05AD51B9FFA67 /* Pods-DownloadManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -588,12 +463,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DownloadManager_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DownloadManager_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DownloadManager_Tests/Pods-DownloadManager_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DownloadManager_Example/Pods-DownloadManager_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -602,11 +477,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		DEC9569BB66BEC125260336D8D9273BA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -671,72 +545,32 @@
 			};
 			name = Debug;
 		};
-		F758921D88B4F52E58017342C6E70549 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E98B5D7CFADA21477B3D5EC00CE93626 /* DownloadManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DownloadManager/DownloadManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DownloadManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DownloadManager/DownloadManager.modulemap";
-				PRODUCT_MODULE_NAME = DownloadManager;
-				PRODUCT_NAME = DownloadManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2212E01767D592C5980E2A90783E0997 /* Build configuration list for PBXNativeTarget "MRJDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2547BB5E073C1C14F0DF8F9C4EB8AAC5 /* Debug */,
+				698EF45028D3AC10CFB9767F3F979AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B03577F4739D3A2C3645FACB2C83FC /* Build configuration list for PBXNativeTarget "Pods-DownloadManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1CB1FB9ED87468068607EEF2FE2E1EF /* Debug */,
+				994804AF7A97CBE60B598B66B8169488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEC9569BB66BEC125260336D8D9273BA /* Debug */,
 				B9AC12289CD8978D51F9223B457E7DCA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46143F290BA27B21454859D7BCC99A75 /* Build configuration list for PBXNativeTarget "Pods-DownloadManager_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B3BF35F2C18ECCB2D8CFA0B46B0F5528 /* Debug */,
-				BB2432BF9C72A989CCF31ACFBC06803C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C4CA4DE724B33CA778A49A3EFF77BA0D /* Build configuration list for PBXNativeTarget "DownloadManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				917112B593AD83852B92D56F11E924D7 /* Debug */,
-				F758921D88B4F52E58017342C6E70549 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C842941139333D77E1291735D820E8E7 /* Build configuration list for PBXNativeTarget "Pods-DownloadManager_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B73A007DC3A8B2B1BF1D0FA96A23B9B /* Debug */,
-				8004BFA106CA4D2907169AC2949D0EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

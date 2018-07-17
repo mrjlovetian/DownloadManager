@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DownloadManager'
-  s.version          = '0.0.2'
+  s.name             = 'MRJDownloadManager'
+  s.version          = '0.0.3'
   s.summary          = 'NSURLConnection 下载类封装.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'DownloadManager/Classes/**/*'
+  s.source_files = 'MRJDownloadManager/Classes/**/*'
   
   # s.resource_bundles = {
   #   'DownloadManager' => ['DownloadManager/Assets/*.png']

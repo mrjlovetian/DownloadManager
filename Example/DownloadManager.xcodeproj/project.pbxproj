@@ -24,7 +24,6 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C66C116F467DFE31AC97EDCF /* Pods_DownloadManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6596B19B536ED3B289C3F7 /* Pods_DownloadManager_Example.framework */; };
 		E720930820FDBF5300C898C2 /* MRJDownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = E720930620FDBF4F00C898C2 /* MRJDownLoad.m */; };
-		F5AB57372BA833408B623ACA /* Pods_DownloadManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA97464E0F46A7B5568CF01 /* Pods_DownloadManager_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0097B4CE60DA9C7058ABBA1E /* Pods-DownloadManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadManager_Tests/Pods-DownloadManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0A37D0BF15C197117C7B5F35 /* Pods-DownloadManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadManager_Example/Pods-DownloadManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1FA97464E0F46A7B5568CF01 /* Pods_DownloadManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownloadManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E95DAD10CA56A1A93FE151E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3F64AFA3FFE05EDB88691FDB /* Pods-DownloadManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadManager_Example/Pods-DownloadManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4790CB5C1D70C60EAC8C6759 /* Pods-DownloadManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadManager_Tests/Pods-DownloadManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		56532146CB0AA5D362AAF3E4 /* DownloadManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DownloadManager.podspec; path = ../DownloadManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		56532146CB0AA5D362AAF3E4 /* MRJDownloadManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MRJDownloadManager.podspec; path = ../MRJDownloadManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* DownloadManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,7 +88,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F5AB57372BA833408B623ACA /* Pods_DownloadManager_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +179,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				56532146CB0AA5D362AAF3E4 /* DownloadManager.podspec */,
+				56532146CB0AA5D362AAF3E4 /* MRJDownloadManager.podspec */,
 				3E95DAD10CA56A1A93FE151E /* README.md */,
 				B8DB87A3F420D0619BD22493 /* LICENSE */,
 			);
@@ -195,8 +191,6 @@
 			children = (
 				0A37D0BF15C197117C7B5F35 /* Pods-DownloadManager_Example.debug.xcconfig */,
 				3F64AFA3FFE05EDB88691FDB /* Pods-DownloadManager_Example.release.xcconfig */,
-				4790CB5C1D70C60EAC8C6759 /* Pods-DownloadManager_Tests.debug.xcconfig */,
-				0097B4CE60DA9C7058ABBA1E /* Pods-DownloadManager_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -227,7 +221,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DownloadManager_Tests" */;
 			buildPhases = (
-				45156DC95359DA11E128E11F /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -299,24 +292,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		45156DC95359DA11E128E11F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DownloadManager_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		98D26F7D1AEC82723F17D8AA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,11 +317,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DownloadManager_Example/Pods-DownloadManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DownloadManager/DownloadManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MRJDownloadManager/MRJDownloadManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DownloadManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRJDownloadManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -518,7 +493,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4790CB5C1D70C60EAC8C6759 /* Pods-DownloadManager_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -542,7 +516,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0097B4CE60DA9C7058ABBA1E /* Pods-DownloadManager_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

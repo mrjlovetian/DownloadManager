@@ -1,5 +1,5 @@
 PODS:
-  - DownloadManager (0.1.0)
+  - DownloadManager (0.0.1)
 
 DEPENDENCIES:
   - DownloadManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DownloadManager: ebba58498b83e1a59002493410b9e07fa30d8d5a
+  DownloadManager: 355c8a471d99c40049cd87bba118f77bb379bef1
 
 PODFILE CHECKSUM: e2e4b1a57caa658773b4f5d4fe9e8b5fefde021e
 

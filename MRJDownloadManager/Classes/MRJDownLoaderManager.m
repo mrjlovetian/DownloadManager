@@ -10,13 +10,13 @@
 #import "MRJDownLoad.h"
 
 @interface MRJDownLoaderManager()
-    
-    @property (nonatomic, strong) NSMutableDictionary *downCache;
-    
-    @end
+
+@property (nonatomic, strong) NSMutableDictionary *downCache;
+
+@end
 
 @implementation MRJDownLoaderManager
-    
+
 + (instancetype)shareDownLoaderManager {
     static MRJDownLoaderManager *manager = nil;
     static dispatch_once_t onceToken;
@@ -25,7 +25,7 @@
     });
     return manager;
 }
-    
+
 - (void)downLoadWithUrl:(NSURL *)url progress:(void (^)(float progress))progress complete:(void (^)(NSString *filePath))complete errorMsg:(void(^)(NSString *errorMsg))errorMsg {
     
     if (self.downCache[url.path]){
@@ -41,7 +41,7 @@
     [downLoader pause];
     [self.downCache removeObjectForKey:url.path];
 }
-    
+
 - (NSMutableDictionary *)downCache {
     if (!_downCache){
         _downCache = [NSMutableDictionary dictionaryWithCapacity:1];

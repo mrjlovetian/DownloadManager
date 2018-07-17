@@ -1,5 +1,5 @@
 PODS:
-  - MRJDownloadManager (0.0.3)
+  - MRJDownloadManager (0.0.6)
 
 DEPENDENCIES:
   - MRJDownloadManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MRJDownloadManager: 8a786c4c5d919f721572bb1c474f90d878c6df4d
+  MRJDownloadManager: 47875cb46bcd446e56d1e960720f8ecb402e8255
 
 PODFILE CHECKSUM: 7120a3b088e02f5589839249ba265cd7fdf4eabf
 

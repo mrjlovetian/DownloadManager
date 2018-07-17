@@ -11,6 +11,7 @@
 #endif
 
 #import "MRJDownLoad.h"
+#import "MRJDownLoaderManager.h"
 
 FOUNDATION_EXPORT double MRJDownloadManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char MRJDownloadManagerVersionString[];

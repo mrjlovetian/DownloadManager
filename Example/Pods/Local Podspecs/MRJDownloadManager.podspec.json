@@ -1,6 +1,6 @@
 {
   "name": "MRJDownloadManager",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "summary": "NSURLConnection 下载类封装.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/mrjlovetian/DownloadManager",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "mrjlovetian@gmail.com": "yuhongjiang642@tops001.com"
+    "mrjlovetian@gmail.com": ""
   },
   "source": {
     "git": "https://github.com/mrjlovetian/DownloadManager.git",
-    "tag": "0.0.3"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "7.0"

@@ -26,13 +26,23 @@
     return manager;
 }
 
-- (void)downLoadWithUrl:(NSURL *)url progress:(void (^)(float progress))progress complete:(void (^)(NSString *filePath))complete errorMsg:(void(^)(NSString *errorMsg))errorMsg {
+- (void)downLoadWithUrl:(NSURL *)url progress:(void (^)(float progress))progressBlock complete:(void (^)(NSString *filePath))completeBlock errorMsg:(void(^)(NSString *errorMsg))errorMsgBlock {
     
     if (self.downCache[url.path]){
         return;
     }
     MRJDownLoad *downLoader = [[MRJDownLoad alloc] init];
-    [downLoader downLoadWithUrl:url progress:progress complete:complete errorMsg:errorMsg];
+    [downLoader downLoadWithUrl:url progress:progressBlock complete:^(NSString *filePath) {
+        [self.downCache removeObjectForKey:url.path];
+        if (completeBlock) {
+            completeBlock(filePath);
+        }
+    } errorMsg:^(NSString *errorMsg) {
+        [self.downCache removeObjectForKey:url.path];
+        if (errorMsg) {
+            errorMsgBlock(errorMsg);
+        }
+    }];
     [self.downCache setObject:downLoader forKey:url.path];
 }
     

@@ -37,12 +37,12 @@
 
 @implementation MRJDownLoad
 
-- (void)downLoadWithUrl:(NSURL *)url progress:(void (^)(float progress))progress complete:(void (^)(NSString *filePath))complete errorMsg:(void(^)(NSString *errorMsg))errorMsg {
+- (void)downLoadWithUrl:(NSURL *)url progress:(void (^)(float progress))progressBlock complete:(void (^)(NSString *filePath))completeBlock errorMsg:(void(^)(NSString *errorMsg))errorMsgBlock {
     
     self.downUrl = url;
-    self.progressBlock = progress;
-    self.completeBlock = complete;
-    self.errorBlock = errorMsg;
+    self.progressBlock = progressBlock;
+    self.completeBlock = completeBlock;
+    self.errorBlock = errorMsgBlock;
     
     // 检查远程服务器文件大小
     [self checkFileWithUrl:url];

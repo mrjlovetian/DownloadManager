@@ -16,7 +16,7 @@
  * complete 下载完成后回调下载路径
  * errorMsg 下载出错回调错误信息
  */
-- (void)downLoadWithUrl:(NSURL *)url progress:(void (^)(float progress))progress complete:(void (^)(NSString *filePath))complete errorMsg:(void(^)(NSString *errorMsg))errorMsg;
+- (void)downLoadWithUrl:(NSURL *)url progress:(void (^)(float progress))progressBlock complete:(void (^)(NSString *filePath))completeBlock errorMsg:(void(^)(NSString *errorMsg))errorMsgBlock;
 
 /*
  * 暂停下载

@@ -48,8 +48,10 @@
     
 - (void)pause:(NSURL *)url {
     MRJDownLoad *downLoader = self.downCache[url.path];
-    [downLoader pause];
-    [self.downCache removeObjectForKey:url.path];
+    if (downLoader) {
+        [downLoader pause];
+        [self.downCache removeObjectForKey:url.path];
+    }
 }
 
 - (NSMutableDictionary *)downCache {

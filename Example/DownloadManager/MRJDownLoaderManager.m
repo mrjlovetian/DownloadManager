@@ -26,7 +26,6 @@
     return manager;
 }
 
-
 - (void)downLoadWithUrl:(NSURL *)url progress:(void (^)(float progress))progress complete:(void (^)(NSString *filePath))complete errorMsg:(void(^)(NSString *errorMsg))errorMsg {
     
     if (self.downCache[url.path]){

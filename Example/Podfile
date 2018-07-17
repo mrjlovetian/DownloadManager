@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DownloadManager_Example' do
+  pod 'DownloadManager', :path => '../'
+
+  target 'DownloadManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

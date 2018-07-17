@@ -1,0 +1,6 @@
+framework module DownloadManager {
+  umbrella header "DownloadManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

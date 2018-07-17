@@ -9,6 +9,25 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+
+```
+/*
+ * url 具体的下载URL
+ * progress 下载进度回调
+ * complete 下载完成后回调下载路径
+ * errorMsg 下载出错回调错误信息
+ */
+- (void)downLoadWithUrl:(NSURL *)url progress:(void (^)(float progress))progress complete:(void (^)(NSString *filePath))complete errorMsg:(void(^)(NSString *errorMsg))errorMsg;
+```
+
+
+```
+/*
+ * 暂停下载
+ */
+- (void)pause;
+```
+
 ## Requirements
 
 ## Installation
@@ -28,3 +47,5 @@ mrjlovetian@gmail.com, yuhongjiang642@tops001.com
 
 DownloadManager is available under the MIT license. See the LICENSE file for more info.
 # DownloadManager
+
+

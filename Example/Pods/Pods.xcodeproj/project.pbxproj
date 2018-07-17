@@ -14,6 +14,8 @@
 		7F3F0B4D98A9E52D7F67062F9D511F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9BC6AE7B75808AE307CD4D45F449EDF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DA132033441F2642875EBDE095392025 /* MRJDownLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED2AEF8317F209103EFEC99AA0C7D84 /* MRJDownLoad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7326D1B20FDC54B009332F2 /* MRJDownLoaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E7326D1920FDC54B009332F2 /* MRJDownLoaderManager.h */; };
+		E7326D1C20FDC54B009332F2 /* MRJDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7326D1A20FDC54B009332F2 /* MRJDownLoaderManager.m */; };
 		F67D5EA9EE7C55506CA061F27EB37D32 /* Pods-DownloadManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4749AD0C27A6A7D1B98F50FA6D65FDEC /* Pods-DownloadManager_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03F4BA2F9A2F126C865AC2A10BD30C8D /* MRJDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJDownloadManager.framework; path = MRJDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F4BA2F9A2F126C865AC2A10BD30C8D /* MRJDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRJDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A09571A317C6CB106CB47B422A0577 /* Pods-DownloadManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloadManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		21F5BDD409DA01AB7771E110AF7BCBB0 /* MRJDownloadManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJDownloadManager-prefix.pch"; sourceTree = "<group>"; };
 		25346EB4742DCD082FE220E15179B876 /* MRJDownloadManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJDownloadManager.xcconfig; sourceTree = "<group>"; };
@@ -37,7 +39,7 @@
 		36D02DAA10D2F369506F0ECD4B6939ED /* Pods-DownloadManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloadManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		38BB26EB231C699BFCE97E3AA3B6C813 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F90F04B9FBE871F1E220A5BD1CA5DC0 /* MRJDownloadManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJDownloadManager-umbrella.h"; sourceTree = "<group>"; };
-		3FB0241116B434B4F5A48FB0A29AC352 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3FB0241116B434B4F5A48FB0A29AC352 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		418B4DD71F95F2FFB9408702FB1BF016 /* MRJDownLoad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRJDownLoad.m; path = MRJDownloadManager/Classes/MRJDownLoad.m; sourceTree = "<group>"; };
 		43465DA3FE559ECCB34674FC52D7E358 /* Pods-DownloadManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownloadManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4749AD0C27A6A7D1B98F50FA6D65FDEC /* Pods-DownloadManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownloadManager_Example-dummy.m"; sourceTree = "<group>"; };
@@ -46,13 +48,15 @@
 		7ED2AEF8317F209103EFEC99AA0C7D84 /* MRJDownLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRJDownLoad.h; path = MRJDownloadManager/Classes/MRJDownLoad.h; sourceTree = "<group>"; };
 		809CDBBC060E97E01D1291C74FD0A31E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8993818E16372DCC56C05AD51B9FFA67 /* Pods-DownloadManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DB9C5A07D316F6817DB5E0ED2C53BD5 /* Pods_DownloadManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownloadManager_Example.framework; path = "Pods-DownloadManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F442D77D1AB13FADBF5F8062BC4591 /* MRJDownloadManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MRJDownloadManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB9C5A07D316F6817DB5E0ED2C53BD5 /* Pods_DownloadManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownloadManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F442D77D1AB13FADBF5F8062BC4591 /* MRJDownloadManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MRJDownloadManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8665F682011251E148EA538F20A3994 /* MRJDownloadManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJDownloadManager-dummy.m"; sourceTree = "<group>"; };
 		CA9FD31C5CC4BB8483E576143D05B471 /* Pods-DownloadManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E63FD6F7C96E647B3DE94E03E12BEA39 /* Pods-DownloadManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadManager_Example-resources.sh"; sourceTree = "<group>"; };
-		EE31B9766C0A42E404A531E714AA701B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E7326D1920FDC54B009332F2 /* MRJDownLoaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRJDownLoaderManager.h; sourceTree = "<group>"; };
+		E7326D1A20FDC54B009332F2 /* MRJDownLoaderManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRJDownLoaderManager.m; sourceTree = "<group>"; };
+		EE31B9766C0A42E404A531E714AA701B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 			children = (
 				7ED2AEF8317F209103EFEC99AA0C7D84 /* MRJDownLoad.h */,
 				418B4DD71F95F2FFB9408702FB1BF016 /* MRJDownLoad.m */,
+				E7326D1920FDC54B009332F2 /* MRJDownLoaderManager.h */,
+				E7326D1A20FDC54B009332F2 /* MRJDownLoaderManager.m */,
 				7A65CFE2CF0F6F580651AC8F1855E6DE /* Pod */,
 				A32ADA61F00BA5F040DA58E9C4A4F826 /* Support Files */,
 			);
@@ -198,6 +204,7 @@
 			files = (
 				DA132033441F2642875EBDE095392025 /* MRJDownLoad.h in Headers */,
 				30030E233D1827CFFCDDECC9B1B82ADC /* MRJDownloadManager-umbrella.h in Headers */,
+				E7326D1B20FDC54B009332F2 /* MRJDownLoaderManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7326D1C20FDC54B009332F2 /* MRJDownLoaderManager.m in Sources */,
 				789464B311A6FE0634EB54D79AD122D9 /* MRJDownLoad.m in Sources */,
 				5060E8D20526B5AF560A4AF8FD123A0E /* MRJDownloadManager-dummy.m in Sources */,
 			);

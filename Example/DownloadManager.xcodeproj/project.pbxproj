@@ -24,6 +24,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C66C116F467DFE31AC97EDCF /* Pods_DownloadManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6596B19B536ED3B289C3F7 /* Pods_DownloadManager_Example.framework */; };
 		E720930820FDBF5300C898C2 /* MRJDownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = E720930620FDBF4F00C898C2 /* MRJDownLoad.m */; };
+		E7326D1F20FDC59A009332F2 /* MRJDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7326D1E20FDC59A009332F2 /* MRJDownLoaderManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		B8DB87A3F420D0619BD22493 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E720930620FDBF4F00C898C2 /* MRJDownLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRJDownLoad.m; sourceTree = "<group>"; };
 		E720930720FDBF5200C898C2 /* MRJDownLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRJDownLoad.h; sourceTree = "<group>"; };
+		E7326D1D20FDC59A009332F2 /* MRJDownLoaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRJDownLoaderManager.h; sourceTree = "<group>"; };
+		E7326D1E20FDC59A009332F2 /* MRJDownLoaderManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRJDownLoaderManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				6003F5A6195388D20070C39A /* MRJViewController.m */,
 				E720930720FDBF5200C898C2 /* MRJDownLoad.h */,
 				E720930620FDBF4F00C898C2 /* MRJDownLoad.m */,
+				E7326D1D20FDC59A009332F2 /* MRJDownLoaderManager.h */,
+				E7326D1E20FDC59A009332F2 /* MRJDownLoaderManager.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -339,6 +344,7 @@
 				E720930820FDBF5300C898C2 /* MRJDownLoad.m in Sources */,
 				6003F5A7195388D20070C39A /* MRJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E7326D1F20FDC59A009332F2 /* MRJDownLoaderManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

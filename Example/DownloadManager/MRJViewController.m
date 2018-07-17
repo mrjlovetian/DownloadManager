@@ -7,12 +7,11 @@
 //
 
 #import "MRJViewController.h"
-#import "MRJDownLoad.h"
+#import "MRJDownLoaderManager.h"
 
 @interface MRJViewController ()
 
 @property (weak, nonatomic) IBOutlet UIProgressView *progressView;
-@property (nonatomic, strong) MRJDownLoad *downLoad;
 
 @end
 
@@ -26,8 +25,8 @@
 
 - (IBAction)start
 {
-    self.downLoad = [[MRJDownLoad alloc] init];
-    [self.downLoad downLoadWithUrl:[NSURL URLWithString:@"http://vodsphn1rqs.vod.126.net/vodsphn1rqs/CozhBPHn_1761895104_hd.mp4"] progress:^(float progress) {
+
+    [[MRJDownLoaderManager shareDownLoaderManager] downLoadWithUrl:[NSURL URLWithString:@"http://vodsphn1rqs.vod.126.net/vodsphn1rqs/CozhBPHn_1761895104_hd.mp4"] progress:^(float progress) {
         
         dispatch_async(dispatch_get_main_queue(), ^{
             self.progressView.progress = progress;
@@ -43,7 +42,7 @@
 }
 
 - (IBAction)pause {
-    [self.downLoad pause];
+    [[MRJDownLoaderManager shareDownLoaderManager] pause:[NSURL URLWithString:@"http://vodsphn1rqs.vod.126.net/vodsphn1rqs/CozhBPHn_1761895104_hd.mp4"]];
 }
 
 @end

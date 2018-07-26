@@ -32,7 +32,6 @@
             self.progressView.progress = progress;
         });
         
-        
     } complete:^(NSString *filePath) {
         
     } errorMsg:^(NSString *errorMsg) {
